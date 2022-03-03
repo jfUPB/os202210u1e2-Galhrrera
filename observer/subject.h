@@ -3,7 +3,7 @@
 	#include "observer.h"
 
 	/**
-	 * The interface for the subject
+	 * Interfaz del sujeto
 	 */
 
 	typedef struct __subject

@@ -2,7 +2,7 @@
 	#define OBSERVER_H
 	#include "common.h"
 	/**
-	 * Definir una "interfaz" para el observador
+	 * Interfaz del observador
 	 */
 
 	typedef struct __observer {

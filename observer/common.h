@@ -1,4 +1,4 @@
-
+//Solución a problemas de memoria
 #ifndef COMMON_H
 	#define COMMON_H
 
