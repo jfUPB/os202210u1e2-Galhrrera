@@ -15,11 +15,13 @@ static void _destroy(Suscriptor* this)
 	}
 }
 
+/*
 static void _smell(Suscriptor * this, CanalYT* canal)
 {
-	cat->registerObserver(cat, this->observer);
+	canal->registerObserver(canal, this->observer);
 	printf("%s Just smelled %s\n", this->name, canal->name);
 }
+*/
 
 static void _handleCatEvent(Suscriptor* this, CanalYT* canal)
 {
@@ -28,7 +30,7 @@ static void _handleCatEvent(Suscriptor* this, CanalYT* canal)
 
 
 /**
- * Observer Method called upon the receiption of an incoming event.
+ * Método del observador lamado a la recepción de un evento entrante
  * @param type
  * @param subject
  */
@@ -36,7 +38,7 @@ static void _notify(Suscriptor* this, int numero, void* subject) {
 	_handleCatEvent(this, (CanalYT*) subject);
 }
 
-Dog* DOG_create(char* NombreSuscriptor)
+Suscriptor* Suscriptor_create(char* NombreSuscriptor)
 {
 	Suscriptor* this = (Suscriptor*) malloc(sizeof(*this));
 
