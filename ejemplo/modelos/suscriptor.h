@@ -17,19 +17,19 @@
 	#include "../../observer/observer.h"
 	#include "canalYT.h"
 
-	typedef struct __dog
+	typedef struct __suscriptor
 	{
 		char* name;
-		void (*speak)(struct __dog*);
-		void (*destroy)(struct __dog*);
-		void (*smell)(struct __dog*, CanalYT*);
+		//void (*speak)(struct __suscriptor*);
+		void (*destroy)(struct __suscriptor*);
+		//void (*smell)(struct __suscriptor*, CanalYT*);
 
 		Observer* observer;
-	} Dog;
+	} Suscriptor;
 
 	/**
-	 * Creates a dog!
+	 * Crear un suscriptor
 	 */
-	Dog* DOG_create(char *);
+	Suscriptor* Suscriptor_create(char *);
 
 #endif

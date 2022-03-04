@@ -31,7 +31,7 @@
         CanalYTEvent event;
         CanalYTEvent (*getEvent)(struct __canalYT*);
 
-        void (*speak)(struct __canalYT*);
+        void (*uploadVideo)(struct __canalYT*);
 
         Subject * subject;
         int (*registerObserver)(struct __canalYT*, Observer*);
