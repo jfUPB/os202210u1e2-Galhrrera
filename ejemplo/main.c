@@ -13,7 +13,6 @@ int main(int argc, char const *argv[])
 
 	CanalYT* unCanal = CanalYT_create("unCanal");
 	Suscriptor* unSuscriptor = Suscriptor_create("unSuscriptor");
-    Suscriptor* OtroSuscriptor = Suscriptor_create("OtroSuscriptor");
 
 	unSuscriptor->seeChannel(unSuscriptor, unCanal);
     //Llama al método de cargar video, el cual internamente
@@ -22,7 +21,6 @@ int main(int argc, char const *argv[])
 
 	unCanal->destroy(unCanal);
 	unSuscriptor->destroy(unSuscriptor);
-    OtroSuscriptor->destroy(OtroSuscriptor);
 
 	return 0;
 }

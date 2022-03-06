@@ -51,7 +51,7 @@ static int _unregisterObserver(CanalYT* this, Observer* observer) {
 /**
  * Crear un canalYT!
  */
-CanalYT* Canal_Creado(char * name)
+CanalYT* CanalYT_create(char * name)
 {
 	CanalYT* this = (CanalYT*) malloc(sizeof(*this));
 	this->name = name;

@@ -45,6 +45,7 @@ static void _notifyObservers(Subject* this)
 {
 	int i = 0;
 
+
 	for (; i < MAX_OBSERVERS; i++) {
 		if (this->observers[i] != NULL) {
 			this->observers[i]->notify(this->observers[i], this->type, this->impl);

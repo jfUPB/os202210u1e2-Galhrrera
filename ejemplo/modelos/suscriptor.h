@@ -10,8 +10,8 @@
  * OBSERVADOR
  */
 
-#ifndef SUSCRIPTOR.H
-	#define SUSCRIPTOR.H
+#ifndef SUSCRIPTOR_H
+	#define SUSCRIPTOR_H
  	#include <stdio.h>
 	#include <stdlib.h>
 	#include "../../observer/observer.h"
