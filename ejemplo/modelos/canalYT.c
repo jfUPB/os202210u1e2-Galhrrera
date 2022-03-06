@@ -9,6 +9,7 @@ static void _uploadVideo(CanalYT* this)
   printf("%s\n", this->name);
   printf("%s\n", "Sube un video");
 
+	//Cuando se sube un video, se realiza la notificación
 	this->event = UPLOADVIDEO;
 	this->subject->notifyObservers(this->subject);
 }
