@@ -13,3 +13,6 @@ En el repositorio de Ciro se puede encontrar otro ejemplo de la implementación 
 ### Implementación en repo personal
 
 En este repo, se implemente el patrón de diseño _observer_ para el ejemplo de un canal de Youtube, en el cual, cada vez que el canal realiza una carga de video, los suscriptores del canal serán notificados.
+
+
+# Vaya a la [WIKI](https://github.com/jfUPB/os202210u1e2-Galhrrera/wiki) para encontrar más información
