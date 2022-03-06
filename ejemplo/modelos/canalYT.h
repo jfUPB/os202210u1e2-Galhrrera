@@ -37,6 +37,11 @@
         int (*registerObserver)(struct __canalYT*, Observer*);
         int (*unregisterObserver)(struct __canalYT *, Observer*);
     }CanalYT;
-    
+
+    /**
+     * Crear un canal de YT
+     */
+
+    CanalYT * CanalYT_create(char *);
 
 #endif

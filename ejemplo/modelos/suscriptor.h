@@ -22,7 +22,7 @@
 		char* name;
 		//void (*speak)(struct __suscriptor*);
 		void (*destroy)(struct __suscriptor*);
-		//void (*smell)(struct __suscriptor*, CanalYT*);
+		void (*seeChannel)(struct __suscriptor*, CanalYT*);
 
 		Observer* observer;
 	} Suscriptor;

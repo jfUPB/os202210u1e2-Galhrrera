@@ -29,7 +29,7 @@ static CanalYTEvent _getEvent(CanalYT* this)
 }
 
 /**
- * Proxy method for Register an observer for the Cat object.
+ * Método para registrar un observador para el Canal
  * @param this
  * @param observer
  * @return
@@ -39,7 +39,7 @@ static int _registerObserver(CanalYT* this, Observer* observer) {
 }
 
 /**
- * Proxy method for Unregister observer for the Cat object.
+ * Método para eliminar un observador al Canal
  * @param this
  * @param observer
  * @return
@@ -48,7 +48,7 @@ static int _unregisterObserver(CanalYT* this, Observer* observer) {
   return this->subject->unregisterObserver(this->subject, observer);
 }
 /**
- * Creates a cat!
+ * Crear un canalYT!
  */
 CanalYT* Canal_Creado(char * name)
 {
